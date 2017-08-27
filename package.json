@@ -1,0 +1,30 @@
+{
+  "name": "oauth-example",
+  "version": "1.0.0",
+  "description": "Quick app I'm making to better understand authentication and authorization with passport/oauth",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ed Nunez",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "*",
+    "body-parser": "*",
+    "connect-flash": "*",
+    "cookie-parser": "*",
+    "express": "*",
+    "express-handlebars": "*",
+    "express-messages": "*",
+    "express-session": "*",
+    "express-validator": "*",
+    "mongodb": "*",
+    "mongoose": "*",
+    "nodemon": "*",
+    "passport": "*",
+    "passport-local": "*",
+    "passport-http": "*",
+    "passport-facebook": "*",
+    "passport-google-oauth20": "*"
+  }
+}

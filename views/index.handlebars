@@ -1,0 +1,38 @@
+<h2 class="page-title"> Home </h2>
+
+<p class="lead">
+    This project provides a basic framework to get started with building an
+    Node.js / Express app that requires authentication.
+</p>
+
+<hr>
+
+
+<p class="lead">
+  The purpose of this page is simply to show you information about 
+  a user logged in via local authentication, Facebook or Google.
+</p>
+
+<div class="row align-items-center">
+  <div class="col">
+
+  <div class="card text-white bg-info mb-3" style="width: 20rem;">
+    <div class="card-header"> <h4>User Information</h4></div>
+    <div class="card-body">
+      <div class="card-text">
+        <dl class="dl-horizontal">
+          <dt>Name:</dt>
+          <dd>{{user.name}}</dd>
+          
+          <dt>Database ID:</dt>
+          <dd>{{user.id}}</dd>
+
+          <dt>Source of registration:</dt>
+          <dd>{{user.reg_source}}</dd>
+        </dl>
+      </div>
+    </div>
+  </div>
+  
+</div>
+</div>

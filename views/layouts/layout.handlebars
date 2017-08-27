@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>OAuthApp</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+  
+  <div class="container">
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-info">
+    <a class="navbar-brand" href="/">OAuth Example</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+        {{#if user}}
+        <li class="nav-item"><a class="nav-link" href="/auth/logout">Log out</a></li>
+        {{else}}
+        <li class="nav-item"><a class="nav-link" href="/auth/login">Log in</a></li>
+        <li class="nav-item"><a class="nav-link" href="/auth/register">Register</a></li>
+        {{/if}}
+      </ul>
+    </div>
+  </nav> 
+     
+
+      <div class="flashMessages">
+        {{#if success_msg}}
+          <div class="alert alert-success"> {{success_msg}} </div>
+        {{/if}}
+
+        {{#if error_msg}}
+          <div class="alert alert-warning"> {{error_msg}} </div>
+        {{/if}}
+
+        {{#if error}}
+          <div class="alert alert-danger"> {{error}} </div>
+        {{/if}}
+      </div>
+
+      <div class="layout-body">
+        {{{body}}}
+      </div>
+
+      <!-- <footer class="footer">
+        Made by Ed Nunez. Fork me on <a href="https://github.com/ednunezg"> Github </a>
+      </footer> -->
+      
+    </div>
+  </body>
+</html>
