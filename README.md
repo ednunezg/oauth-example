@@ -1,4 +1,4 @@
-Local, facebook and google authentication on node.js
+Local, FB and Google authentication on node.js
 =============================================================================
 
 This is is a quick project I made for me to better understand how authentication / authorization with local, Facebook and Google accounts. This serves as a good starting point for any developer that wish to build website that allows users to login from different social accounts.
