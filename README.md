@@ -12,6 +12,6 @@ Running the project
 2. ```$ git clone https://github.com/ednunezg/oauth-example```
 3. Install dependencies ```$ npm install```
 4. Use the Google and Facebook developer pages to create a new app to be used for OAuth 2 authorization.
-6. Rename 'app-config-SAMPLE.js' to 'app-config.js with your Facebook and Google app id and secret.
+6. Rename "app-config-SAMPLE.js" to "app-config.js" with your Facebook and Google app id and secret.
 7. Start app ```$ nodemon app```
 8. Go to http://localhost:3000
