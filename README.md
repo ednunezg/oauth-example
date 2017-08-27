@@ -1,4 +1,4 @@
-Example app of local, facebook and google authentication with node.js/express
+Local, facebook and google authentication with node.js/express
 =============================================================================
 
 This is is a quick project I made for me to better understand how authentication / authorization with local, Facebook and Google accounts. This serves as a good starting point for any developer that wish to create a new website that allows people to login from different social accounts.
