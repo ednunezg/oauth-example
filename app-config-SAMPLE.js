@@ -7,14 +7,14 @@ var config = {
 
   facebookConfig: {
     appID: "FACEBOOK_CLIENT_ID",
-    appSecret: "FACEBOOK_APP_SECRET",
+    appSecret: "FACEBOOK_CLIENT_SECRET",
     callbackUrl: "http://localhost:3000/auth/login/facebook/callback"
   },
 
 
   googleConfig: {
     appID: "GOOGLE_CLIENT_ID",
-    appSecret: "GOOGLE_APP_SECRET",
+    appSecret: "GOOGLE_CLIENT_SECRET",
     callbackUrl: "http://localhost:3000/auth/login/google/callback"
   }
 }
